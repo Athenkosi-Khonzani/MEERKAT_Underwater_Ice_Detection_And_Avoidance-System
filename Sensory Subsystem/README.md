@@ -5,7 +5,7 @@ This repository contains the STM32CubeIDE project for the Sensory Subsystem of t
 
 The firmware successfully integrates two primary sensors:
 
-1. VL53L1X Time-of-Flight (ToF) Sensor: Acts as a continuous, software-defined proximity limit switch to track the linear displacement of the VBS syringe plunger (20mm to 120mm limits).
+1. VL53L1X Time-of-Flight (ToF) Sensor: Acts as a continuous, software-defined proximity limit switch to track the linear displacement of the VBS syringe plunger (40mm to 120mm limits).
 2. DYP-L08-V2.0 Ultrasonic Sensor: Provides long-range (up to 10m) acoustic obstacle and ice detection in highly turbid Antarctic waters.
 
 ## Hardware & Pin Configuration (.ioc mapping)
