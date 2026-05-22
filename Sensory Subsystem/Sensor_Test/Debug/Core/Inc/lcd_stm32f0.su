@@ -1,0 +1,6 @@
+../Core/Inc/lcd_stm32f0.c:71:6:lcd_command	16	static
+../Core/Inc/lcd_stm32f0.c:167:6:init_LCD	8	static
+../Core/Inc/lcd_stm32f0.c:198:7:lcd_putchar	16	static
+../Core/Inc/lcd_stm32f0.c:290:6:lcd_putstring	32	static
+../Core/Inc/lcd_stm32f0.c:308:6:pulse_strobe	8	static
+../Core/Inc/lcd_stm32f0.c:330:6:delay	24	static,ignoring_inline_asm

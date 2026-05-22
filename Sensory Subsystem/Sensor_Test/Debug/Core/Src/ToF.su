@@ -1,0 +1,9 @@
+../Core/Src/ToF.c:26:26:ToF_WriteReg	32	static
+../Core/Src/ToF.c:31:26:ToF_ReadReg	40	static
+../Core/Src/ToF.c:38:19:ToF_Init	56	static
+../Core/Src/ToF.c:90:10:ToF_GetRawAverage	56	static
+../Core/Src/ToF.c:117:6:ToF_Calibrate_TwoPoint	24	static
+../Core/Src/ToF.c:130:10:ToF_ReadDistance	40	static
+../Core/Src/ToF.c:168:6:ToF_SaveCalibration	48	static
+../Core/Src/ToF.c:192:9:ToF_LoadCalibration	16	static
+../Core/Src/ToF.c:211:6:ToF_EraseCalibration	24	static

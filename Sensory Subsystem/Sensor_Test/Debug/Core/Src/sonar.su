@@ -1,0 +1,2 @@
+../Core/Src/sonar.c:3:6:Sonar_Init	16	static
+../Core/Src/sonar.c:8:14:Sonar_Read	48	static
