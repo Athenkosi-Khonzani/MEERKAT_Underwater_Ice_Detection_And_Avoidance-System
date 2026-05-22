@@ -52,16 +52,15 @@ MEERKAT is divided into four independent subsystems. Each lives in its own folde
 ---
 
 ## Mission Concept of Operations
-
+ 
 1. **Surface idle.** Pack voltage is monitored. The vehicle waits for a `"M:1"` command from the surface ESP32 over UART3.
 2. **Pre-descent check.** The plunger is forced to its minimum position (syringe empty of water). If the battery is below the warning threshold, the mission is refused.
-3. **Descend.** Motor 1 pushes the plunger out to its maximum position; the syringe pulls water in and the vehicle sinks.
+3. **Descend.** The motor is driven forward through the H-bridge; the plunger is pushed out to its maximum position, the syringe pulls water in, and the vehicle sinks.
 4. **Submerged loop.** The vehicle stays down for a configurable mission time. Throughout, it:
    * streams JSON telemetry to the surface every 500 ms (SoC, ToF, sonar, MCU temperature),
-   * watches the DYP-L08 ultrasonic for obstacles closer than 1 m,
+   * watches the upward-looking DYP-L08 ultrasonic for obstacles closer than 1 m,
    * watches the battery and aborts to ascent if SoC < 20 %.
-5. **Ascend.** Once the mission timer expires *and* the path above is clear, Motor 2 pulls the plunger back in. The syringe expels water and the vehicle rises. If an obstacle is detected above, the ascent waits for it to clear.
-
+5. **Ascend.** Once the mission timer expires *and* the path above is clear, the motor is driven in reverse through the H-bridge — the plunger is pulled back in, the syringe expels water, and the vehicle rises. If an obstacle is detected above, the ascent waits for it to clear.
 The state machine is implemented in `Control And Actuation Subsystem/Control_System_2.0/Core/Src/main.c`.
 
 ---
