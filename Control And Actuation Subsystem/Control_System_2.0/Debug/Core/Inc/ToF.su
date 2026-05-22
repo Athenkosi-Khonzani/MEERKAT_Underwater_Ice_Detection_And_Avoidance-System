@@ -1,0 +1,11 @@
+../Core/Inc/ToF.c:35:26:ToF_WriteReg	32	static
+../Core/Inc/ToF.c:40:26:ToF_ReadReg	40	static
+../Core/Inc/ToF.c:47:17:ToF_ApplyCalibration	24	static
+../Core/Inc/ToF.c:57:13:ToF_LoadCalibrationFromFlash	32	static
+../Core/Inc/ToF.c:78:19:ToF_Init	48	static
+../Core/Inc/ToF.c:126:10:ToF_ReadDistanceRaw	24	static
+../Core/Inc/ToF.c:146:10:ToF_ReadDistance	16	static
+../Core/Inc/ToF.c:151:10:ToF_AverageRaw	40	static
+../Core/Inc/ToF.c:178:9:ToF_Calibrate	72	static
+../Core/Inc/ToF.c:215:9:ToF_ClearCalibration	32	static
+../Core/Inc/ToF.c:234:6:ToF_GetCalibration	24	static

@@ -1,0 +1,3 @@
+../Core/Inc/FlashStore.c:9:17:crc32	32	static
+../Core/Inc/FlashStore.c:29:9:FlashStore_Load	24	static
+../Core/Inc/FlashStore.c:55:9:FlashStore_Save	88	static

@@ -1,0 +1,11 @@
+../Core/Inc/battery.c:99:26:ina_write	32	static
+../Core/Inc/battery.c:105:26:ina_read	32	static
+../Core/Inc/battery.c:116:26:ina_read_voltage	24	static
+../Core/Inc/battery.c:125:26:ina_read_current	24	static
+../Core/Inc/battery.c:139:14:ocv_to_soc	40	static
+../Core/Inc/battery.c:169:14:clamp_f	24	static
+../Core/Inc/battery.c:179:24:soc_to_status	16	static
+../Core/Inc/battery.c:190:19:Battery_Init	24	static
+../Core/Inc/battery.c:216:19:Battery_Update	48	static
+../Core/Inc/battery.c:281:6:Battery_GetData	24	static
+../Core/Inc/battery.c:305:6:Battery_RuntimeToHMS	24	static

@@ -1,0 +1,2 @@
+../Core/Inc/temp_sensor.c:9:6:TempSensor_Init	16	static
+../Core/Inc/temp_sensor.c:14:7:TempSensor_ReadC	16	static
