@@ -100,28 +100,6 @@ The parts are `.SLDPRT` files for **SolidWorks 2022** or later. They have not ye
 
 ---
 
-## Hardware Bill of Materials (high level)
-
-| Item | Part | Where it lives |
-|---|---|---|
-| Flight MCU | STM32F446RET6 (Nucleo-F446RE) | Control subsystem |
-| Sensor MCU (bring-up) | STM32F051C6T6 | Sensory subsystem |
-| Surface link | ESP32 (off-board) | n/a — talks over UART3 |
-| Obstacle sensor | DYP-L08-V2.0 ultrasonic | Sensory + Control |
-| Plunger position sensor | VL53L1X Time-of-Flight | Sensory + Control |
-| Battery monitor | INA219 (I²C) | Power + Control |
-| Buck regulators | 2 × TPS5430DDAR | Power |
-| Battery | 3S Li-ion, 1000 mAh | Power |
-| Drive motors | 2 × small DC motors (PWM) | Control + Housing |
-
----
-
-## Naming Convention
-
-Files prefixed `KHNATH002_*` use the lead author's UCT student-number style identifier. They are not external part numbers.
-
----
-
 ## Status
 
 | Subsystem | Hardware | Firmware | Verified end-to-end |
@@ -135,10 +113,12 @@ Files prefixed `KHNATH002_*` use the lead author's UCT student-number style iden
 
 ## Authors
 
-Capstone project, University of Cape Town, Department of Electrical Engineering.
+EEE4113F project, University of Cape Town, Department of Electrical Engineering.
 
-* Athenkosi Khonzani — Power Subsystem (KHNATH002)
-* Additional team members — see individual subsystem READMEs.
+* Athenkosi Khonzani — Power Subsystem 
+* Ayanda Madlala — Housing Subsystem 
+* Branden Nkhahle — Sensory Subsystem
+* Manelisi Ngcobo — Control And Actuation Subsystem
 
 ---
 
